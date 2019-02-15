@@ -74,6 +74,10 @@ WORD $00
 TrapData:
 END_MAIN
 
+CutsceneMars:
+UNIT Joshua MarthLord 0 Level(0,Ally,0) [5,9] 0x0 0x0 0x1 REDA10R3 NoItems NoAI
+UNIT
+
 BeginningScene:
 
 CHECK_TUTORIAL
@@ -86,11 +90,31 @@ LABEL 0
 ENUT 0x22
 
 
+LOMA 2 //cutscene map
+FADO 10
+LOAD1 0x1 CutsceneMars
+ENUN
+CUMO [10,3]
+STAL 40
+CURE
+Text(HouseBG,IntroCantWinHouse)
+FADI 10
+
+LOMA 0 //actual map
+FADO 10
 LOAD1 0x1 EnemyUnits
 ENUN
 FADU 10
 LOAD1 0x1 PlayerUnits
 ENUN
+TEXTSTART
+TEXTSHOW IntroMapStart
+TEXTEND
+CAM1 Gharnef
+ENUN
+TEXTCONT
+TEXTEND
+REMA
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -164,6 +188,25 @@ NoFade
 ENDA
 
 EndingScene:
+CHECK_EVENTID 176
+SVAL 1 1
+BNE 1 1 0xC
+Text(HouseBG,EndingGharnefDies)
+GOTO 2
+LABEL 1
+Text(HouseBG,EndingGharnefLives)
+LABEL 2
+
+Text(HouseBG,MoneymanRankingBegin)
+CALL ScoreCalculation
+
+
+
+
+
+
+
+
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
 EVBIT_F 0x2
@@ -246,3 +289,22 @@ UNIT BanditGeneric Rogue 0 Level(3,Enemy,1) [3,11] 0x0 0x0 0x0 0x1 [IronSword] [
 UNIT BanditGeneric Brigand 0 Level(18,Enemy,1) [5,11] 0x2 0x0 0x0 0x1 [SilverAxe] [0x0,0xE,0x0,0x0]
 UNIT BanditGeneric Brigand 0 Level(19,Enemy,1) [4,11] 0x0 0x0 0x0 0x1 [Tomahawk] [0x0,0xE,0x0,0x0]
 UNIT
+
+
+ScoreCalculation:
+//get current funds total, using fe7 ranking calc
+//divide by 40
+//get turn count
+//if turn count is above 10, subtract (turn count-10)*3 from score
+//if Gharnef is defeated, add a constant value
+//if not on Casual, for every unit death, subtract (gharnef value/2)
+//if on Hard, multiply score by 1.2x
+
+//if score is underneath X, return 0
+//if score is above X but below Y, return 1
+//if score is above Y, return 2
+NoFade
+ENDA
+
+
+

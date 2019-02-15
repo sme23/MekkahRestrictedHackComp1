@@ -50,8 +50,149 @@ the map before Marth,[A][NL]
 but only Marth can end the map.[A][X]
 
 ##IntroExplanationForcedEnd
-If [ToggleRed]30 turns pass[ToggleRed],[A][NL]
+If [ToggleRed]Marth falls in battle[ToggleRed][NL]
+or[ToggleRed]30 turns pass[ToggleRed],[A][NL]
 The map will end without you escaping.[A][X]
 
+##IntroLoreBackground
+Khadein, city of magic.
+Ever since Gharnef named himself ruler,[NL]
+the sands surrounding it had run red.[A][NL]
+However, one local villager may[NL]
+know more than he lets on[Beat][A][X]
+
+
+##IntroCantWinHouse
+[OpenMidRight][LoadMarth]
+[OpenMidLeft][LoadYouCantWin]
+You can't win against Gharnef.[A]
+[OpenMidRight]
+I'm sorry, what?[NL]
+Gharnef is here?[A]
+[OpenMidLeft]
+He's just over there.[A][NL]
+And you can't win against him.[A]
+[OpenMidRight]
+Gharnef killed my father.[A][NL]
+He is the cause of everything that[NL]
+has happened these last years[Beat][A][NL]
+If he is here, we must defeat him![A]
+[OpenMidLeft]
+You can't do that.[A]
+[OpenMidRight]
+Why not!?[A]
+[OpenMidLeft]
+Because you can't-[.6]
+[OpenMidRight]
+Yes,[.4] yes,[.4] we can't[NL]
+win against Gharnef.[A][NL]
+But [.4]why[.4] can't we[NL]
+win against Gharnef?[A]
+[OpenMidLeft]
+His tome blocks all attacks.[A][NL]
+Well, not all attacks, but most.[A][NL]
+So you can't win against him.[A]
+[OpenMidRight]
+You're starting to irritate me.[A][NL]
+I'm going to go and defeat[NL]
+him just to prove you wrong.[A]
+[OpenMidLeft]
+You know what? Fine.[A][NL]
+[LoadOverworldFaces]
+Here.[A]
+[OpenMidRight]
+W-what was that?[A]
+[OpenMidLeft]
+Starlight.[A][NL]
+Now you can fight Gharnef.[A}[NL]
+You still can't[NL]
+defeat Gharnef.[A]
+[OpenMidRight]
+Watch me.[A][X]
+
+##IntroMapStart
+[OpenMidLeft][LoadMarth]
+There he is![NL]
+Gharnef![A]
+[ClearFace]
+[LoadOverworldFaces]
+[OpenMidRight][LoadGharnef]
+Ah, so you finally approach![A][X]
+
+##GharnefBattleQuote
+[OpenMidLeft][LoadGharnef}
+What's that?[A][NL]
+You think you can win against[NL]
+Gharnef the Dark Pontifex?[A][X]
+
+##GharnefBattleQuoteLinde
+[OpenMidRight][LoadLinde]
+You![A][NL]
+Father killer![A]
+[ClearFace]
+[OpenMidLeft][LoadGharnef]
+Ah, Miloah's whelp![A][NL]
+Come to die too, have we?[A}
+[ClearFace]
+[OpenMidRight][LoadLinde]
+Shut up! I'll kill you![A][X]
+
+##EndingGharnefLives
+[OpenMidRight][LoadMarth]
+[OpenMidLeft][LoadYouCantWin]
+See? What did I tell you?[A]
+[OpenMidRight]
+I guess you're right[Beat][A][NL]
+You really can't win[NL]
+against Gharnef[Beat][A][X]
+[OpenMidLeft]
+Great, now get out of my house.[A][X]
+
+##EndingGharnefDies
+[OpenMidLeft][LoadYouCantWin]
+[OpenMidRight][LoadMarth]
+Ha! What did I tell you?[A][NL]
+Gharnef has fallen![A]
+[OpenMidLeft]
+That wasn't Gharnef.[A]
+[OpenMidRight]
+Wha[ToggleMouthMove]-!?[ToggleMouthMove][A]
+[OpenMidLeft]
+That was a body double.[A][NL]
+The real Gharnef still[NL]
+lives, and has Falchion.[A]
+[OpenMidRight]
+And I didn't even get a Dracoshield[NL]
+for killing the body double!?[A]
+[OpenMidLeft]
+See? What did I tell you?[A]
+[OpenMidRight]
+I guess you're right[Beat][A][NL]
+You really can't win[NL]
+against Gharnef[Beat][A][X]
+[OpenMidLeft]
+Great, now get out of my house.[A][X]
+
+##MoneymanRankingBegin
+Hey, you![A][NL]
+Money is important![A][NL]
+Without it, your[NL]
+score will be poor![A][NL]
+Speaking of, let's[NL]
+see how you did![A][X]
+
+##MoneymanRankingPoor
+Hmm[Beat]is that all?[A][NL]
+You can do better than that![A][X]
+
+##MoneymanRankingGood
+Not half bad![A][NL]
+Still, could be better[Beat][A][X]
+
+
+##MoneymanRankingBest
+Wow! I've never seen a[NL]
+score this high before![A][NL]
+You truly are talented![A}[X]
 
 

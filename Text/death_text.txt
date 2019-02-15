@@ -1,52 +1,52 @@
 ##MarthDeathQuote
-[OpenMidRight][LoadMarth]
+[OpenMidRight][LoadMarth][CloseEyes]
 Forgive me[Beat][NL]
 my friends[Beat][A][X]
 
 ##CaedaDeathQuote
-[OpenMidRight][LoadCaeda]
+[OpenMidRight][LoadCaeda][CloseEyes]
 Goodbye, Marth[Beat][A][NL]
 Stay strong[Beat][NL]
 for me[Beat][A][X]
 
 ##DraugDeathQuote
-[OpenMidRight][LoadDraug]
+[OpenMidRight][LoadDraug][CloseEyes]
 Damn[Beat][A][NL]
 I've been[Beat]choked[Beat][A][X]
 
 ##NorneDeathQuote
-[OpenMidRight][LoadNorne]
+[OpenMidRight][LoadNorne][CloseEyes]
 Heh[Beat][A][NL]
 Oops[Beat][A][X]
 
 ##WrysDeathQuote
-[OpenMidRight][LoadWrys]
+[OpenMidRight][LoadWrys][CloseEyes]
 Alas[Beat][A][NL]
 this is beyond healing[Beat][A][X]
 
 ##MerricDeathQuote
-[OpenMidRight][LoadMerric]
+[OpenMidRight][LoadMerric][CloseEyes]
 Sire[Beat][A][NL]
 I was glad[Beat][A][NL]
 to know you[Beat][A][X]
 
 ##DarrosDeathQuote
-[OpenMidRight][LoadDarros]
+[OpenMidRight][LoadDarros][CloseEyes]
 Arr[Beat][A][NL]
 So this be the end[Beat][A][X]
 
 ##LindeDeathQuote
-[OpenMidRight][LoadLinde]
+[OpenMidRight][LoadLinde][CloseEyes]
 Father[Beat][A][NL]
 I'll be with you soon[Beat][A][X]
 
 ##RickardDeathQuote
-[OpenMidRight][LoadRickard]
+[OpenMidRight][LoadRickard][CloseEyes][ToggleSmile]
 Dang it[Beat]
 What a way to-[.5]nngh-[.5]go[Beat][A][X]
 
 ##GharnefDeathQuote
-[OpenMidLeft][LoadGharnef]
+[OpenMidLeft][LoadGharnef][CloseEyes]
 No[Beat][A][NL]
 How did you[Beat][A][NL]
 Win against[Beat]me?[A][X]

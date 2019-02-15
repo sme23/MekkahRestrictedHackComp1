@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="BetterDesert" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../../tilesets/BetterDesert.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="2"/>
+   <property name="MapID" value="0xB"/>
+   <property name="ObjectType" value="0x42"/>
+   <property name="PaletteID" value="0x43"/>
+   <property name="TileConfig" value="0x44"/>
+  </properties>
+  <data encoding="csv">
+193,815,202,268,68,101,205,815,816,193,815,816,814,193,816,
+846,847,848,266,99,164,237,847,848,846,847,848,846,847,848,
+878,193,880,696,572,916,571,571,571,571,571,571,695,879,193,
+193,815,816,601,164,133,134,132,165,131,810,67,633,815,232,
+846,847,193,601,68,131,101,67,99,165,101,134,633,232,132,
+878,879,880,601,166,166,131,164,166,134,163,163,915,101,99,
+193,815,816,601,68,131,194,67,134,100,67,100,633,101,194,
+846,847,193,601,194,164,874,194,100,101,132,132,633,117,118,
+571,571,571,636,571,916,571,571,571,571,571,604,704,213,213,
+134,68,163,132,165,133,101,166,67,163,166,637,704,213,213
+</data>
+ </layer>
+</map>

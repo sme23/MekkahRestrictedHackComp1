@@ -36,6 +36,6 @@ My father's killer[Beat][A][NL]
 I'll leave this up to you.[A][X]
 
 ##RickardEscapeQuote
-[OpenMidLeft][LoadRickard]
+[OpenMidLeft][LoadRickard][ToggleSmile]
 I know when to cut my losses.[A][NL]
 Better live to thief another day![A][X]
