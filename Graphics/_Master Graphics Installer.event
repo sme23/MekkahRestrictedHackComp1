@@ -1,0 +1,90 @@
+//Animations
+#include "Animations/_Master Animation Installer.event"
+
+//Item Icons
+#include "Item Icons/_Item Icon Installer.event"
+
+//Mugs
+#include "Mugs/_Mug Installer.event"
+
+//Spell Animations
+#include "Spell Animations/_Master Spell Installer.event"
+
+//Tilesets
+MESSAGE Tiles at CURRENTOFFSET
+DesertTiles:
+#incext compress "Tileset/BetterDesert.mapchip_config"
+ALIGN 4
+
+MESSAGE Objects at CURRENTOFFSET
+DesertObjects:
+#incext Png2Dmp "Tileset/BetterDesert.png" --lz77
+ALIGN 4
+
+MESSAGE Palette at CURRENTOFFSET
+DesertPalette:
+#incbin "Tileset/BetterDesertPalette.dmp"
+ALIGN 4
+
+EventPointerTable(0x42, DesertObjects)
+EventPointerTable(0x43, DesertPalette)
+EventPointerTable(0x44, DesertTiles)
+
+//Title Screen
+#include "Title Screen/titlebackgroundinstaller.event"
+
+//Removing title screen graphics besides background
+
+PUSH
+ORG $AAC5AC
+#incext Png2Dmp "Misc/Title.png" --lz77
+ORG $AACBA8
+#incext Png2Dmp "Misc/Title.png" --palette-only
+ORG $C5830
+POIN SubtitleImage
+ORG $AADBC8
+#incext Png2Dmp "Misc/Subtitle.png" --palette-only
+ORG $C57E4
+POIN DragonsImage
+ORG $C57F4
+POIN DragonsPalette
+POP
+
+ALIGN 4
+SubtitleImage:
+#incext Png2Dmp "Misc/Subtitle.png" --lz77
+ALIGN 4
+DragonsImage:
+#incext Png2Dmp "Misc/Dragons.png" --lz77
+ALIGN 4
+DragonsPalette:
+#incext Png2Dmp "Misc/Dragons.png" --palette-only
+
+//Casual Mode graphic
+
+PUSH
+  ORG $AC188
+  POIN NewDifficultyButtons
+POP
+
+NewDifficultyButtons:
+#incext Png2Dmp "Misc/difficulty.png" --lz77
+
+//Map Sprites
+#define StandingMapSprite(aId, width, height, gfxPointer) "PUSH; ORG 0x8AF880 + (aId * 8); SHORT height width; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG 0x9A2E00 + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+
+
+StandingMapSprite(1, 0, 0, MarfStandingMapSprite)
+MovingMapSprite(2, 0x1C46CC, MarfMovingMapSprite)
+
+ALIGN 4
+MarfStandingMapSprite:
+#incext Png2Dmp "Map Sprites/Marth Standing Map Sprite.png" --lz77
+
+ALIGN 4
+MarfMovingMapSprite:
+#incext Png2Dmp "Map Sprites/Marth Moving Map Sprite.png" --lz77
+
+
+

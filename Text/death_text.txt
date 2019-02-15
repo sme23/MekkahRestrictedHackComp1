@@ -1,0 +1,53 @@
+##MarthDeathQuote
+[OpenMidRight][LoadMarth]
+Forgive me[Beat][NL]
+my friends[Beat][A][X]
+
+##CaedaDeathQuote
+[OpenMidRight][LoadCaeda]
+Goodbye, Marth[Beat][A][NL]
+Stay strong[Beat][NL]
+for me[Beat][A][X]
+
+##DraugDeathQuote
+[OpenMidRight][LoadDraug]
+Damn[Beat][A][NL]
+I've been[Beat]choked[Beat][A][X]
+
+##NorneDeathQuote
+[OpenMidRight][LoadNorne]
+Heh[Beat][A][NL]
+Oops[Beat][A][X]
+
+##WrysDeathQuote
+[OpenMidRight][LoadWrys]
+Alas[Beat][A][NL]
+this is beyond healing[Beat][A][X]
+
+##MerricDeathQuote
+[OpenMidRight][LoadMerric]
+Sire[Beat][A][NL]
+I was glad[Beat][A][NL]
+to know you[Beat][A][X]
+
+##DarrosDeathQuote
+[OpenMidRight][LoadDarros]
+Arr[Beat][A][NL]
+So this be the end[Beat][A][X]
+
+##LindeDeathQuote
+[OpenMidRight][LoadLinde]
+Father[Beat][A][NL]
+I'll be with you soon[Beat][A][X]
+
+##RickardDeathQuote
+[OpenMidRight][LoadRickard]
+Dang it[Beat]
+What a way to-[.5]nngh-[.5]go[Beat][A][X]
+
+##GharnefDeathQuote
+[OpenMidLeft][LoadGharnef]
+No[Beat][A][NL]
+How did you[Beat][A][NL]
+Win against[Beat]me?[A][X]
+

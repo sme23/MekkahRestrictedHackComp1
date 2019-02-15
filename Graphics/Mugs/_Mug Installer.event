@@ -1,0 +1,68 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+ALIGN 16
+
+MarthPortrait:
+#incext PortraitFormatter "Marth.png"
+
+CaedaPortrait:
+#incext PortraitFormatter "Caeda.png"
+
+DraugPortrait:
+#incext PortraitFormatter "Draug.png"
+
+NornePortrait:
+#incext PortraitFormatter "Norne.png"
+
+WrysPortrait:
+#incext PortraitFormatter "Wrys.png"
+
+MerricPortrait:
+#incext PortraitFormatter "Merric.png"
+
+DarrosPortrait:
+#incext PortraitFormatter "Darros.png"
+
+LindePortrait:
+#incext PortraitFormatter "Linde.png"
+
+RickardPortrait:
+#incext PortraitFormatter "Rickard.png"
+
+GharnefPortrait:
+#incext PortraitFormatter "Gharnef.png"
+
+YouCantWinPortrait:
+#incext PortraitFormatter "YouCantWin.png"
+
+MoneymanPortrait:
+#incext PortraitFormatter "Moneyman.png"
+
+
+#define MarthMug 0x2
+#define CaedaMug 0x3
+#define DraugMug 0x4
+#define NorneMug 0x5
+#define WrysMug 0x6
+#define MerricMug 0x7
+#define DarrosMug 0x8
+#define LindeMug 0x9
+#define RickardMug 0xA
+#define GharnefMug 0x30
+#define YouCantWinMug 0x58
+#define MoneymanMug 0x59
+
+
+setMugEntry(MarthMug,MarthPortrait,3,6,3,4)
+setMugEntry(CaedaMug,CaedaPortrait,3,6,3,4)
+setMugEntry(DraugMug,DraugPortrait,3,5,3,3)
+setMugEntry(NorneMug,NornePortrait,2,6,3,4)
+setMugEntry(WrysMug,WrysPortrait,3,6,3,4)
+setMugEntry(MerricMug,MerricPortrait,3,6,3,4)
+setMugEntry(DarrosMug,DarrosPortrait,3,5,3,3)
+setMugEntry(LindeMug,LindePortrait,4,6,3,4)
+setMugEntry(RickardMug,RickardPortrait,3,6,4,4)
+setMugEntry(GharnefMug,GharnefPortrait,3,5,3,3)
+setMugEntry(YouCantWinMug,YouCantWinPortrait,2,5,3,3)
+setMugEntry(MoneymanMug,MoneymanPortrait,4,6,3,4)

@@ -1,0 +1,45 @@
+
+ORG 0x1000000
+
+#include "EAstdlib.event"
+#include "Custom Definitions.event"
+//#include "Tables/PointerTableReorganized.event"
+
+//Text first for Text ID definitions
+#include "Text/Install Text Data.event"
+MESSAGE Used text space ends at currentOffset
+
+//Graphics
+#include "Graphics/_Master Graphics Installer.event"
+#include "Palettes/Palette Setup.event"
+
+//CSV tables
+#include "Tables/Table Installer.event"
+MESSAGE Used table space ends at currentOffset
+
+//Engine Hacks
+#include "Engine Hacks/_MasterHackInstaller.event"
+MESSAGE Used hax space ends at currentOffset
+
+//Maps
+#include "Maps/Master Map Installer.event"
+	
+//Music
+#include "Music/_Music Installer.event"
+	
+//Events
+#include "REDAHelper.txt"
+#include "Events/Events.event"
+#include "Events/World Map Events Installer.event"
+
+PUSH
+ORG 0xD74D0
+String("2019/14/02[THR]")
+ORG 0xD74E0
+String("21:26:27")
+ORG 0xD74EC
+String("MRHC1")
+POP
+
+MESSAGE Used free space ends at currentOffset
+MESSAGE Proc_Counter

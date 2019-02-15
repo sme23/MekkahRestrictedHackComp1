@@ -1,0 +1,3 @@
+#define __DEBUG__
+#include "ROM Buildfile.event"
+

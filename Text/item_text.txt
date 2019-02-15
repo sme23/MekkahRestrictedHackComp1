@@ -1,0 +1,164 @@
+## MarthRapierName
+Rapier[X]
+
+## MarthRapierBio
+A lightweight sword.[X]
+
+## CaedaRapierName
+Wing Spear[X]
+
+## CaedaRapierBio
+Effective against infantry.[X]
+
+## LightName
+Light[X]
+
+## LightBio
+Standard light magic.[X]
+
+## EllightName
+Ellight[X]
+
+## EllightBio
+Mid-level light magic.[X]
+
+## ShineName
+Aura[X]
+
+## ShineBio
+Strongest light magic.[X]
+
+## ResireName
+Resire[X]
+
+## ResireBio
+Syphons energy from its target.[X]
+
+## FireName
+Fire[X]
+
+## FireBio
+Standard fire magic.[X]
+
+## ElfireName
+Elfire[X]
+
+## ElfireBio
+Mid-level fire magic.[X]
+
+## ArcfireName
+Arcfire[X]
+
+## ArcfireBio
+High-level fire magic.[X]
+
+## BolganoneName
+Bolganone[X]
+
+## BolganoneBio
+Very powerful fire magic.[X]
+
+## MeteorName
+Meteor[X]
+
+## MeteorBio
+Long-range fire magic.[X]
+
+## ThunderName
+Thunder[X]
+
+## ThunderBio
+Standard thunder magic.[X]
+
+## ElthunderName
+Elthunder[X]
+
+## ElthunderBio
+Mid-level thunder magic.[X]
+
+## ArcthunderName
+Arcthunder[X]
+
+## ArcthunderBio
+High-level thunder magic.[X]
+
+## ThoronName
+Thoron[X]
+
+## ThoronBio
+Most powerful thunder magic.[X]
+
+## BoltingName
+Bolting[X]
+
+## BoltingBio
+Long-range thunder magic.[X]
+
+## WindName
+Wind[X]
+
+## WindBio
+Standard wind magic.[X]
+
+## ElwindName
+Elwind[X]
+
+## ElwindBio
+Mid-level wind magic.[X]
+
+## ArcwindName
+Excalibur[X]
+
+## ArcwindBio
+Strongest wind magic.[X]
+
+## FimbulvetrName
+Fimbulvetr[X]
+
+## FimbulvetrBio
+Most powerful wind magic.[X]
+
+## BlizzardName
+Blizzard[X]
+
+## BlizzardBio
+Long-range wind magic.[X]
+
+## YotsmungandName
+Yotsmungand[X]
+
+## YotsmungandBio
+Poisons its target.[X]
+
+## ConcoctionName
+Concoction[X]
+
+## ConcoctionBio
+ConcoctionBio[X]
+
+## MineName
+Mine[X]
+
+## LightRuneName
+Light Rune[X]
+
+## DancerRingName1
+Filla's Might[X]
+
+## DancerRingName2
+Ninis's Grace[X]
+
+## DancerRingName3
+Thor's Ire[X]
+
+## DancerRingName4
+Set's Litany[X]
+
+##IoteShieldName
+Iote's Shield[X]
+
+##ImhulluName
+Imhullu[X]
+
+##ImhulluBio
+No longer prevents counterattacks.[X]

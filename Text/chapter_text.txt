@@ -1,0 +1,57 @@
+##IntroExplanationStart
+Your goal is to defeat [ToggleRed]Gharnef[ToggleRed].[A][NL]
+However, you will be scored at the[NL]
+end on multiple different factors.[A][X]
+
+##IntroExplanationFunds
+Your [ToggleRed]funds[ToggleRed] will be factored[NL]
+into your final score.[A][NL]
+Increase your funds ranking by obtaining[NL]
+[ToggleRed]enemy weapon drops[ToggleRed],[A][NL]
+conserving the [ToggleRed]uses[ToggleRed][NL]
+on your own weapons,[A][NL]
+as well as looting the [ToggleRed]chests[ToggleRed].[A][X]
+
+##IntroExplanationDeathsCasual
+You are playing on [ToggleRed]Casual[ToggleRed],[A][NL]
+so unit deaths will not be[NL]
+factored into your final score.[A][X]
+
+##IntroExplanationDeaths
+When your units [ToggleRed]fall in battle[ToggleRed],[NL]
+your score takes a penalty.[A][NL]
+Try to avoid losing as[NL]
+many units as possible.[A][X]
+
+##IntroExplanationHardBonus
+You are playing on [ToggleRed]Hard[ToggleRed],[A][NL]
+so you will get a flat multiplier[NL]
+to your final score.[A][X]
+
+##IntroExplanationTurnEvents
+At the start of each turn, there's a random[NL]
+chance of one of a few effects occurring.[A][NL]
+[ToggleRed]Fog[ToggleRed] may roll in,[NL]
+a [ToggleRed]sandstorm[ToggleRed] may pick up,[A][NL]
+or [ToggleRed]enemy reinforcements[ToggleRed] may appear.[A][X]
+
+##IntroExplanationTurnCount
+You will also be scored on your turn count.[A][NL]
+The [ToggleRed]fewer turns[ToggleRed] you clear the map in,[NL]
+the better your turn count score.[A][X]
+
+##IntroExplanationEscape1
+You can [ToggleRed]escape[ToggleRed] the map at any time.[A][NL]
+To do so, just take Marth [ToggleRed]here.[ToggleRed][A][X]
+
+##IntroExplanationEscape2
+Other units may escape[NL]
+the map before Marth,[A][NL]
+but only Marth can end the map.[A][X]
+
+##IntroExplanationForcedEnd
+If [ToggleRed]30 turns pass[ToggleRed],[A][NL]
+The map will end without you escaping.[A][X]
+
+
+

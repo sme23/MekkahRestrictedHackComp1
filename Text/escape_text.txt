@@ -1,0 +1,41 @@
+##MarthEscapeQuote
+[OpenMidLeft][LoadMarth]
+unused text lol[A][X]
+
+##CaedaEscapeQuote
+[OpenMidLeft][LoadCaeda]
+I'm sorry.[A][NL]
+It seems I'm not performing well today[Beat][A][X]
+
+##DraugEscapeQuote
+[OpenMidLeft][LoadDraug]
+There are points that need choking[Beat][NL]
+Elsewhere![A][X]
+
+##NorneEscapeQuote
+[OpenMidLeft][LoadNorne]
+Time to get out of here![A][X]
+
+##WrysEscapeQuote
+[OpenMidLeft][LoadWrys]
+I'm getting too old for this[Beat][A][X]
+
+##MerricEscapeQuote
+[OpenMidLeft][LoadMerric]
+I must withdraw for now.[A][NL]
+Fare well, Marth.[A][X]
+
+##DarrosEscapeQuote
+[OpenMidLeft][LoadDarros]
+Yarr, It's about[NL]
+time I become sail![A][X]
+
+##LindeEscapeQuote
+[OpenMidLeft][LoadLinde]
+My father's killer[Beat][A][NL]
+I'll leave this up to you.[A][X]
+
+##RickardEscapeQuote
+[OpenMidLeft][LoadRickard]
+I know when to cut my losses.[A][NL]
+Better live to thief another day![A][X]
