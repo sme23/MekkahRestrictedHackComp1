@@ -342,5 +342,16 @@
 #define IntroExplanationEscape1 $A30
 #define IntroExplanationEscape2 $A31
 #define IntroExplanationForcedEnd $A32
+#define IntroLoreBackground $A33
+#define IntroCantWinHouse $A34
+#define IntroMapStart $A35
+#define GharnefBattleQuote $A36
+#define GharnefBattleQuoteLinde $A37
+#define EndingGharnefLives $A38
+#define EndingGharnefDies $A39
+#define MoneymanRankingBegin $A3A
+#define MoneymanRankingPoor $A3B
+#define MoneymanRankingGood $A3C
+#define MoneymanRankingBest $A3D
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

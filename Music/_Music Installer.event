@@ -30,3 +30,14 @@
 //SongTable(99,My_song,MapMusicGroup)
 //#include "My_song.event"
 
+SongTable(0x19,Battle,BattleMusicGroup)
+#include "Battle.event"
+
+SongTable(0x1A,EnemyBattle,BattleMusicGroup)
+#include "EnemyBattle.event"
+
+SongTable(0x1B,ClashOfTwoVirtues,BattleMusicGroup)
+#include "ClashOfTwoVirtues.event"
+
+SongTable(0x1C,GharnefSong,MapMusicGroup)
+#include "GharnefSong.event"

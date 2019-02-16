@@ -91,7 +91,7 @@ ENUT 0x22
 
 
 LOMA 2 //cutscene map
-FADO 10
+FADU 10
 LOAD1 0x1 CutsceneMars
 ENUN
 CUMO [10,3]
@@ -99,9 +99,9 @@ STAL 40
 CURE
 Text(HouseBG,IntroCantWinHouse)
 FADI 10
-
+DISA Joshua
 LOMA 0 //actual map
-FADO 10
+FADU 10
 LOAD1 0x1 EnemyUnits
 ENUN
 FADU 10
