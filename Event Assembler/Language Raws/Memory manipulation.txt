@@ -36,7 +36,7 @@ SADD, 0x0620, 32, -game:FE8
 	SlotSrc1, 20, 4
 	SlotSrc2, 24, 4
 
-## Substract slot values
+## Subtract slot values
 SSUB, 0x0621, 32, -game:FE8
 	SlotDest, 16, 4
 	SlotSrc1, 20, 4

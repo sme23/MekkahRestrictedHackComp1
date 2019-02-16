@@ -293,16 +293,41 @@ UNIT
 
 ScoreCalculation:
 //get current funds total, using fe7 ranking calc
+SVAL 1 6
 ASMC CallFundsEvalASMC|1 //returns rank from 0 to 5 in memory slot 1
+SADD 0x91
 
-//this returns a number from 0 to 5 depending on your rank
-//S rank parameter is one number set in chapter data at +0x60, +0x64, +0x68, and +0x6C based on eliwood/hector normal/hard (so just set all since not sure)
+CHECK_TURNS
+SVAL 8 10
+SSUB 0x8C
+SADD 0x98
 
-//get turn count
-//if turn count is above 10, subtract (turn count-10)*3 from score
-//if Gharnef is defeated, add a constant value
-//if not on Casual, for every unit death, subtract (gharnef value/2)
-//if on Hard, multiply score by 1.2x
+CHECK_EVENTID 176
+SVAL 1 1
+BNE 8 1 0xC
+  
+  SVAL 8 10
+  SADD 0x98
+  
+LABEL 8
+
+CHECK_TUTORIAL
+SVAL 1 1
+BEQ 9 1 0xC
+
+  //unit death checks (-5 per death)
+
+LABEL 9
+
+CHECK_HARD
+SVAL 1 1
+BNE 10 1 0xC
+
+  //multiply score by 1.2
+  
+LABEL 10
+
+
 
 //if score is underneath X, return 0
 //if score is above X but below Y, return 1
