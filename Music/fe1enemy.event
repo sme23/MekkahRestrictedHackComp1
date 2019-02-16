@@ -1,0 +1,7592 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	fe1enemy_grp  voicegroup000
+	#define	fe1enemy_pri  0
+	#define	fe1enemy_rev  0
+	#define	fe1enemy_mvl  85
+	#define	fe1enemy_key  0
+	#define	fe1enemy_tbs  1
+	#define	fe1enemy_exg  0
+	#define	fe1enemy_cmp  1
+
+	// .rodata
+	//	fe1enemy
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+fe1enemy_1:
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   120*fe1enemy_tbs/2
+	BYTE		VOICE   67
+	BYTE		VOL     75*fe1enemy_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W13
+	BYTE		N10     Dn4   v127
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     En3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        Bn2 
+	BYTE	W21
+	BYTE		        Dn4 
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W09
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     Bn2 
+	BYTE	W20
+	BYTE		N10     Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W05
+// 019   ----------------------------------------
+	BYTE	W05
+	BYTE		        An3 
+	BYTE	W11
+	BYTE		N09   
+	BYTE	W09
+	BYTE		N10     En3 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        Bn2 
+	BYTE	W21
+	BYTE		N09     Dn4 
+	BYTE	W09
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W09
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     Bn2 
+	BYTE	W20
+	BYTE		        Dn4 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        En3 
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE	W07
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        Bn2 
+	BYTE	W20
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     En3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	W03
+	BYTE		        Bn2 
+	BYTE	W21
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     Bn2 
+	BYTE	W10
+// 023   ----------------------------------------
+	BYTE	W09
+	BYTE		N10     Dn4 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        An3 
+	BYTE	W11
+	BYTE		N09   
+	BYTE	W09
+	BYTE		N10     En3 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        Bn2 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     En3 
+	BYTE	W04
+// 024   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	fe1enemy_1_B1
+fe1enemy_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+fe1enemy_2:
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   71
+	BYTE		VOL     75*fe1enemy_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W13
+	BYTE		N10     Gn4   v127
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        En3 
+	BYTE	W21
+	BYTE		        Gn4 
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W09
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     En3 
+	BYTE	W20
+	BYTE		N10     Gn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W05
+// 019   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn4 
+	BYTE	W11
+	BYTE		N09   
+	BYTE	W09
+	BYTE		N10     An3 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        En3 
+	BYTE	W21
+	BYTE		N09     Gn4 
+	BYTE	W09
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        Dn4 
+	BYTE	W09
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W10
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     En3 
+	BYTE	W20
+	BYTE		        Gn4 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        An3 
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE	W07
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        En3 
+	BYTE	W20
+	BYTE		        Gn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		N09     An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	W03
+	BYTE		        En3 
+	BYTE	W21
+	BYTE		        Gn4 
+	BYTE	W10
+	BYTE		N09   
+	BYTE	W10
+	BYTE		N10     Dn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        An3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     En3 
+	BYTE	W10
+// 023   ----------------------------------------
+	BYTE	W10
+	BYTE		N10     Gn4 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W11
+	BYTE		N09   
+	BYTE	W09
+	BYTE		N10     An3 
+	BYTE	W11
+	BYTE		N10   
+	BYTE	W10
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N10   
+	BYTE	W11
+	BYTE		N09     An3 
+	BYTE	W04
+// 024   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	fe1enemy_2_B1
+fe1enemy_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.11) ****************//
+
+fe1enemy_3:
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W66
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		TIE     Gn3   v127
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W04
+	BYTE		        c_v+0
+	BYTE	W04
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     En3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Bn2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     An2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     En2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Gn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N10     Bn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N10     Cn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N10     En3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Bn2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+// 007   ----------------------------------------
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Gn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		N54   
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     An3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 008   ----------------------------------------
+	BYTE	W01
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Fn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N14     En3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     En3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Bn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Fn2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 009   ----------------------------------------
+	BYTE	W01
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		EOT   
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Cn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Bn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     En3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Bn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Fn2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     An2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+// 013   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+// 014   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W78
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Gn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+// 015   ----------------------------------------
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     En2 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Gn2 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		TIE   
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		VOL     87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		EOT   
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W11
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W11
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W11
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	W09
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	fe1enemy_3_B1
+fe1enemy_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.12) ****************//
+
+fe1enemy_4:
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   109
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W66
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		TIE     Dn4   v127
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W04
+	BYTE		        c_v+1
+	BYTE	W04
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v+1
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W04
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N13     Cn4 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		TIE     Gn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Fn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Cn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N10     Gn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N10     An3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N10     Cn4 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Gn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+// 007   ----------------------------------------
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N66     Dn4 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W04
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-5
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v+7
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+4
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N13     Gn4 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Fn4 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 008   ----------------------------------------
+	BYTE	W01
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Dn4 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N14     Cn4 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N13     Cn4 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Gn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Dn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 009   ----------------------------------------
+	BYTE	W01
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		EOT   
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		TIE     An3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		EOT   
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Gn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE		N13     Cn4 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N13     Bn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     Gn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Dn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		TIE     Fn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W04
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-3
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W02
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+// 013   ----------------------------------------
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+// 014   ----------------------------------------
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W78
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     En3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+// 015   ----------------------------------------
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N13     Cn3 
+	BYTE	W03
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     En3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W03
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Dn3 
+	BYTE	W02
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W02
+	BYTE		        87*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W02
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-4
+	BYTE	W01
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W01
+	BYTE		VOL     57*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		VOL     47*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		        c_v-1
+	BYTE	W04
+	BYTE		EOT   
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v-2
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W03
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W02
+	BYTE		        c_v-2
+	BYTE	W11
+	BYTE		VOL     80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W11
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W04
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W11
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W03
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        0*fe1enemy_mvl/mxv
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	W10
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+2
+	BYTE	W03
+	BYTE		VOL     66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W03
+	BYTE		        73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W05
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W06
+	BYTE		        80*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W03
+	BYTE		VOL     73*fe1enemy_mvl/mxv
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		        66*fe1enemy_mvl/mxv
+	BYTE	W01
+	BYTE		        33*fe1enemy_mvl/mxv
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	fe1enemy_4_B1
+fe1enemy_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.13) ****************//
+
+fe1enemy_5:
+	BYTE		VOL     127*fe1enemy_mvl/mxv
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		BEND    c_v-1
+	BYTE		N09     Gn1   v127
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W04
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+// 001   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W09
+// 002   ----------------------------------------
+	BYTE	W02
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W03
+// 003   ----------------------------------------
+	BYTE	W08
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W04
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+// 005   ----------------------------------------
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W05
+// 006   ----------------------------------------
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W03
+// 007   ----------------------------------------
+	BYTE	W02
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W04
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N09     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W04
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+// 010   ----------------------------------------
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+// 011   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE		N01     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W08
+// 012   ----------------------------------------
+	BYTE	W02
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W02
+// 013   ----------------------------------------
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W09
+// 015   ----------------------------------------
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W03
+// 016   ----------------------------------------
+	BYTE	W07
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE		N09     Gn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Gn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W05
+// 019   ----------------------------------------
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-33
+	BYTE		N09     Gs1 
+	BYTE	W09
+	BYTE		BEND    c_v-1
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-33
+	BYTE		N10     Gs1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N04     Dn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W04
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE		N10     Fn1 
+	BYTE	W11
+	BYTE		BEND    c_v-1
+	BYTE		N04     Cn2 
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N09     Fn1 
+	BYTE	W10
+	BYTE		BEND    c_v-1
+	BYTE		N05     Cn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Fn2 
+	BYTE	W05
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W05
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+// 021   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-64
+	BYTE		N04   
+	BYTE	W05
+	BYTE		BEND    c_v-2
+	BYTE		N01     Fn2 
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N04     Gn2 
+	BYTE	W04
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v-64
+	BYTE		N04   
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	W04
+	BYTE		BEND    c_v-2
+	BYTE		N01     Fn2 
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-3
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-3
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-3
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-3
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+4
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W02
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v-2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+2
+	BYTE		N01   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02   
+	BYTE	W03
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE		N03   
+	BYTE	W03
+// 024   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N01   
+	BYTE	W04
+	BYTE		BEND    c_v+0
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	fe1enemy_5_B1
+fe1enemy_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.14) ****************//
+
+fe1enemy_6:
+	BYTE	KEYSH   fe1enemy_key+0
+fe1enemy_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3   v127
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+// 001   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W09
+// 002   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W03
+// 003   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+// 005   ----------------------------------------
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W05
+// 006   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W03
+// 007   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+// 010   ----------------------------------------
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+// 011   ----------------------------------------
+	BYTE	W01
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W08
+// 012   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W02
+// 013   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+// 015   ----------------------------------------
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W03
+// 016   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W05
+// 019   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W04
+// 020   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N20   
+	BYTE	W21
+	BYTE		N19   
+	BYTE	W20
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W04
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N20   
+	BYTE	W21
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N20   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W20
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N20   
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	W20
+	BYTE		N20   
+	BYTE	W21
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N09     Gs3 
+	BYTE	W09
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W10
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W05
+	BYTE		VOL     33*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v-6
+	BYTE		N10     Gs3 
+	BYTE	W11
+	BYTE		VOL     0*fe1enemy_mvl/mxv
+	BYTE		BEND    c_v+11
+	BYTE		N04     Gs2 
+	BYTE	W04
+// 024   ----------------------------------------
+	BYTE	W01
+	BYTE		BEND    c_v+11
+	BYTE	W28
+	BYTE	GoTo
+	 POIN2	fe1enemy_6_B1
+fe1enemy_6_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+fe1enemy:
+	BYTE	6	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	fe1enemy_pri	// Priority
+	BYTE	fe1enemy_rev	// Reverb.
+
+	POIN2	fe1enemy_grp
+
+	POIN2	fe1enemy_1
+	POIN2	fe1enemy_2
+	POIN2	fe1enemy_3
+	POIN2	fe1enemy_4
+	POIN2	fe1enemy_5
+	POIN2	fe1enemy_6
+
+	

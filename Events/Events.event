@@ -14,10 +14,10 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-UNIT Marth MarthLord Marth Level(15,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R3 [Rapier,Elixir] NoAI
+UNIT Marth MarthLord Marth Level(15,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R3 [Rapier,SteelSword,Elixir] NoAI
 UNIT Caeda Falcoknight Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R3 [WingSpear,SteelLance,DelphiShield] NoAI
-UNIT Draug General Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R3 [SilverLance,HoplonGuard] NoAI
-UNIT Norne Sniper_F Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R2 [KillerBow,SteelBow] NoAI
+UNIT Draug General Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R3 [SilverLance,Javelin,HoplonGuard] NoAI
+UNIT Norne Sniper_F Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R2 [KillerBow,SilverBow] NoAI
 UNIT Wrys Bishop Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R2 [EllightTome,Physic,Mend] NoAI
 UNIT Merric Sage Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R1 [ExcaliburTome,ElwindTome] NoAI
 UNIT Darros Berserker Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R2 [KillerAxe,SteelAxe] NoAI
@@ -293,7 +293,11 @@ UNIT
 
 ScoreCalculation:
 //get current funds total, using fe7 ranking calc
-//divide by 40
+ASMC CallFundsEvalASMC|1 //returns rank from 0 to 5 in memory slot 1
+
+//this returns a number from 0 to 5 depending on your rank
+//S rank parameter is one number set in chapter data at +0x60, +0x64, +0x68, and +0x6C based on eliwood/hector normal/hard (so just set all since not sure)
+
 //get turn count
 //if turn count is above 10, subtract (turn count-10)*3 from score
 //if Gharnef is defeated, add a constant value

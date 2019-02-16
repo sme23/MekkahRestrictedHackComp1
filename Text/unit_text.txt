@@ -2,73 +2,74 @@
 Marth[X]
 
 ##MarthBio
-MarthBio[X]
+The Prince of Altea.[X]
 
 ##CaedaName
 Caeda[X]
 
 ##CaedaBio
-CaedaBio[X]
+The Princess of Talys.[X]
 
 ##DraugName
 Draug[X]
 
 ##DraugBio
-DraugBio[X]
+An Altean knight with an[NL]
+affinity for choking points.[X]
 
 ##NorneName
 Norne[X]
 
 ##NorneBio
-NorneBio[X]
+best girl[X]
 
 ##WrysName
 Wrys[X]
 
 ##WrysBio
-WrysBio[X]
+best husbando[X]
 
 ##DarrosName
 Darros[X]
 
 ##DarrosBio
-DarrosBio[X]
+Yarr harr fiddle dee dee[X]
 
 ##RickardName
 Rickard[X]
 
 ##RickardBio
-RickardBio[X]
+The biggest cutie[X]
 
 ##MerricName
 Merric[X]
 
 ##MerricBio
-MerricBio[X]
+excalibur[X]
 
 ##LindeName
 Linde[X]
 
 ##LindeBio
-LindeBio[X]
+her parents are dead[X]
 
 ##GharnefName
 Gharnef[X]
 
 ##GharnefBio
-GharnefBio[X]
+You can't win against him.[X]
 
 ##DolhrName
 Dolhr[X]
 
 ##DolhrBio
-DolhrBio[X]
+Soldiers of the realm of Dolhr.[X]
 
 ##BanditName
 Bandit[X]
 
 ##BanditBio
-BanditBio[X]
+Thieving bandits.[X]
 
 
 

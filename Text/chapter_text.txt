@@ -174,6 +174,7 @@ against Gharnef[Beat][A]
 Great, now get out of my house.[A][X]
 
 ##MoneymanRankingBegin
+[OpenMidRight][LoadMoneyman]
 Hey, you![A][NL]
 Money is important![A][NL]
 Without it, your[NL]
@@ -182,15 +183,18 @@ Speaking of, let's[NL]
 see how you did![A][X]
 
 ##MoneymanRankingPoor
+[OpenMidRight][LoadMoneyman]
 Hmm[Beat]is that all?[A][NL]
 You can do better than that![A][X]
 
 ##MoneymanRankingGood
+[OpenMidRight][LoadMoneyman]
 Not half bad![A][NL]
 Still, could be better[Beat][A][X]
 
 
 ##MoneymanRankingBest
+[OpenMidRight][LoadMoneyman]
 Wow! I've never seen a[NL]
 score this high before![A][NL]
 You truly are talented![A][X]
