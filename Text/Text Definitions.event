@@ -353,5 +353,6 @@
 #define MoneymanRankingPoor $A3B
 #define MoneymanRankingGood $A3C
 #define MoneymanRankingBest $A3D
+#define WinAgainstGharnefText $A3E
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

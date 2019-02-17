@@ -89,7 +89,7 @@ LABEL 200
 
 ENUT 0x22
 
-
+MUSC 0x2E
 LOMA 2 //cutscene map
 FADU 10
 LOAD1 0x1 CutsceneMars
@@ -97,11 +97,12 @@ ENUN
 CUMO [10,3]
 STAL 40
 CURE
-Text(HouseBG,IntroCantWinHouse)
+SetBackground(HouseBG)
+Text(IntroCantWinHouse)
 FADI 10
 DISA Joshua
 LOMA 0 //actual map
-FADU 10
+MUSC 0x1B
 LOAD1 0x1 EnemyUnits
 ENUN
 FADU 10
@@ -110,8 +111,9 @@ ENUN
 TEXTSTART
 TEXTSHOW IntroMapStart
 TEXTEND
-CAM1 Gharnef
-ENUN
+CUMO [9,8]
+STAL 40
+CURE
 TEXTCONT
 TEXTEND
 REMA
@@ -165,6 +167,7 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationEscape1
 TEXTEND
 
+
 CUMO [2,0]
 STAL 60
 CURE
@@ -186,16 +189,21 @@ EndingScene:
 CHECK_EVENTID 176
 SVAL 1 1
 BNE 301 1 0xC
+  MUSC 0x32
   SetBackground(HouseBG)
   Text(EndingGharnefDies)
   GOTO 302
 LABEL 301
+  MUSC 0x31
   SetBackground(HouseBG)
   Text(EndingGharnefLives)
 LABEL 302
 
+MUSC 0x3C
 Text(MoneymanRankingBegin)
 CALL ScoreCalculation
+
+MUSC 0x3A
 
 SVAL 1 0
 BNE 303 1 5
@@ -298,7 +306,7 @@ UNIT
 
 ScoreCalculation:
 ASMC CallFundsEvalASMC|1 //returns rank from 0 to 5 in memory slot 1
-SADD 0x21
+SADD 0x12
 COUNTER_SET 2 (-1)
 
 CHECK_EVENTID 176
@@ -366,11 +374,11 @@ LABEL 9
 
 CHECK_HARD
 SVAL 1 1
-BNE 10 1 0xC
+BNE 610 1 0xC
 
   COUNTER_INC 2
   
-LABEL 10
+LABEL 610
 
 COUNTER_CHECK 2
 SVAL 1 7

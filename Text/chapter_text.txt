@@ -51,7 +51,7 @@ but only Marth can end the map.[A][X]
 
 ##IntroExplanationForcedEnd
 If [ToggleRed]Marth falls in battle[ToggleRed][NL]
-or[ToggleRed]30 turns pass[ToggleRed],[A][NL]
+or [ToggleRed]30 turns pass[ToggleRed],[A][NL]
 The map will end without you escaping.[A][X]
 
 ##IntroLoreBackground
@@ -199,4 +199,5 @@ Wow! I've never seen a[NL]
 score this high before![A][NL]
 You truly are talented![A][X]
 
-
+##WinAgainstGharnefText
+Win Against Gharnef[X]

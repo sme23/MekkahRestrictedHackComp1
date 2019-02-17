@@ -1417,6 +1417,10 @@ __TEXTPROCESSA3D:
 #incbin ".TextEntries\text_buildfileMoneymanRankingBest.fetxt.dmp"
 setText($A3D, __TEXTPROCESSA3D)
 
+__TEXTPROCESSA3E:
+#incbin ".TextEntries\text_buildfileWinAgainstGharnefText.fetxt.dmp"
+setText($A3E, __TEXTPROCESSA3E)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
