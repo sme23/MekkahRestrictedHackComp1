@@ -82,10 +82,10 @@ BeginningScene:
 
 CHECK_TUTORIAL
 SVAL 1 1
-BNE 0 1 0xC
+BNE 200 1 0xC
     ENUT 0xB0
 	UnlockAllGuideEntries
-LABEL 0
+LABEL 200
 
 ENUT 0x22
 
@@ -128,41 +128,36 @@ TEXTEND
 
 CHECK_TUTORIAL
 SVAL 1 1
-BNE 1 1 0xC
+BNE 201 1 0xC
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationDeathsCasual
 TEXTEND
 
-GOTO 1
+GOTO 201
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationDeaths
 TEXTEND
 
-LABEL 1
+LABEL 201
 
 CHECK_HARD
 SVAL 1 1
-BNE 2 1 0xC
+BNE 202 1 0xC
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationHardBonus
 TEXTEND
 
-LABEL 2
+LABEL 202
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationTurnEvents
-TEXTEND
-
-CenterTutorialTextBox
-TUTORIALTEXTBOXSTART
-TEXTSHOW IntroExplanationTurnCount
 TEXTEND
 
 CenterTutorialTextBox
@@ -190,28 +185,32 @@ ENDA
 EndingScene:
 CHECK_EVENTID 176
 SVAL 1 1
-BNE 1 1 0xC
-  Text(HouseBG,EndingGharnefDies)
-  GOTO 2
-LABEL 1
-  Text(HouseBG,EndingGharnefLives)
-LABEL 2
+BNE 301 1 0xC
+  SetBackground(HouseBG)
+  Text(EndingGharnefDies)
+  GOTO 302
+LABEL 301
+  SetBackground(HouseBG)
+  Text(EndingGharnefLives)
+LABEL 302
 
-Text(HouseBG,MoneymanRankingBegin)
+Text(MoneymanRankingBegin)
 CALL ScoreCalculation
 
 SVAL 1 0
-BNE 3 1 5
-  Text(HouseBG,MoneymanRankingPoor)
-LABEL 3
+BNE 303 1 5
+  Text(MoneymanRankingPoor)
+  GOTO 305
+LABEL 303
 SVAL 1 1
-BNE 4 1 5
-  Text(HouseBG,MoneymanRankingGood)
-LABEL 4
+BNE 304 1 5
+  Text(MoneymanRankingGood)
+  GOTO 305
+LABEL 304
 SVAL 1 2
-BNE 5 1 5
-  Text(HouseBG,MoneymanRankingBest)
-LABEL 5
+BNE 305 1 5
+  Text(MoneymanRankingBest)
+LABEL 305
 
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
@@ -225,62 +224,62 @@ RandomTurnEvents:
 RANDOMNUMBER 100
 
 SVAL 1 60
-BLE 0 1 0xC
+BLE 100 1 0xC
 
-  GOTO 3
+  GOTO 103
 
-LABEL 0
+LABEL 100
 SVAL 1 70
-BLE 1 1 0xC
+BLE 101 1 0xC
 
   CHECK_EVENTID 236
   SVAL 1 1
-  BNE 4 1 0xC
+  BNE 104 1 0xC
 
     WEA1 6
     ENUT 236
-    GOTO 3
+    GOTO 103
 
-  LABEL 4
+  LABEL 104
   WEA1 0
   ENUF 236
-  GOTO 3
+  GOTO 103
 
-LABEL 1
+LABEL 101
 SVAL 1 80
-BLE 2 1 0xC
+BLE 102 1 0xC
 
   CHECK_EVENTID 237
   SVAL 1 1
-  BNE 5 1 0xC
+  BNE 105 1 0xC
   
     VCWF 5
     ENUT 237
-    GOTO 3
+    GOTO 103
   
-  LABEL 5
+  LABEL 105
   VCWF 0
   ENUF 237
-  GOTO 3
+  GOTO 103
   
-LABEL 2
+LABEL 102
 SVAL 1 100
-BLE 3 1 0xC
+BLE 103 1 0xC
 
   RANDOMNUMBER 1
   SVAL 1 1
-  BNE 6 1 0xC
+  BNE 106 1 0xC
   
     LOAD1 0x1 SoldierReinforcements
     ENUN
-    GOTO 3
+    GOTO 103
   
-  LABEL 6
+  LABEL 106
   LOAD1 0x1 BanditReinforcements
   ENUN
-  GOTO 3
+  GOTO 103
 
-LABEL 3
+LABEL 103
 NoFade
 ENDA
 
@@ -301,13 +300,6 @@ ScoreCalculation:
 ASMC CallFundsEvalASMC|1 //returns rank from 0 to 5 in memory slot 1
 SADD 0x21
 COUNTER_SET 2 (-1)
-
-CHECK_TURNS
-SVAL 8 10
-SSUB 0x8C
-SADD 0x28
-//subtract value in slot 2 from counter
-
 
 CHECK_EVENTID 176
 SVAL 1 1
@@ -393,7 +385,6 @@ SVAL 1 15
 BNE 20 1 0xC
   SVAL 5 2
 LABEL 20
-NoFade
 ENDA
 
 

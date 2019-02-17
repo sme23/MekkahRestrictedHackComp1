@@ -187,7 +187,7 @@ COUNTER_INC, 0x0F22, 4, -language:FE8 -indexMode:8
 COUNTER_DEC, 0x0F23, 4, -language:FE8 -indexMode:8
 	Id, 2, 1
 
-# Provided for compat, but does not work as intended (use CONTOUT_INC instead)
+# Provided for compat, but does not work as intended (use COUNTER_INC instead)
 COUNTER_ADD, 0x0F22, 4, -game:FE8 -indexMode:8
 	Id, 2, 1
 	Unused, 3, 1
