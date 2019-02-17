@@ -16,13 +16,13 @@ POIN BeginningScene EndingScene
 PlayerUnits:
 UNIT Marth MarthLord Marth Level(15,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R3 [Rapier,SteelSword,Elixir] NoAI
 UNIT Caeda Falcoknight Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R3 [WingSpear,SteelLance,DelphiShield] NoAI
-UNIT Draug General Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R3 [SilverLance,Javelin,HoplonGuard] NoAI
+UNIT Draug General Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R2 [SilverLance,Javelin,HoplonGuard] NoAI
 UNIT Norne Sniper_F Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R2 [KillerBow,SilverBow] NoAI
 UNIT Wrys Bishop Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R2 [EllightTome,Physic,Mend] NoAI
 UNIT Merric Sage Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R1 [ExcaliburTome,ElwindTome] NoAI
-UNIT Darros Berserker Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA3R2 [KillerAxe,SteelAxe] NoAI
+UNIT Darros Berserker Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R3 [KillerAxe,SteelAxe] NoAI
 UNIT Linde Sage_F Marth Level(1,Ally,0) [2,0] 0x0 0x0 0x1 REDA1R1 [AuraTome,ArcfireTome] NoAI
-UNIT Rickard Rogue Marth Level(5,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R0 [IronSword] NoAI
+UNIT Rickard Rogue Marth Level(5,Ally,0) [2,0] 0x0 0x0 0x1 REDA2R1 [IronSword] NoAI
 UNIT 
 
 EnemyUnits:
@@ -47,6 +47,8 @@ UNIT
 TurnBasedEvents:
 TurnEventPlayer(0,EndingScene,31)
 TurnEventPlayer(0,RandomTurnEvents,3,30)
+TurnEventPlayer(0,EndIfNormal,26)
+TurnEventPlayer(0,EndIfHard,21)
 END_MAIN
 
 CharacterBasedEvents:
@@ -167,7 +169,6 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationEscape1
 TEXTEND
 
-
 CUMO [2,0]
 STAL 60
 CURE
@@ -177,10 +178,45 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW IntroExplanationEscape2
 TEXTEND
 
+CHECK_TUTORIAL
+SVAL 1 1
+BNE 701 1 0xC
+
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
-TEXTSHOW IntroExplanationForcedEnd
+TEXTSHOW IntroExplanationForcedEndCasual
 TEXTEND
+GOTO 703
+
+LABEL 701
+
+CHECK_HARD
+SVAL 1 1
+BNE 702 1 0xC
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW IntroExplanationForcedEndHard
+TEXTEND
+GOTO 703
+
+LABEL 702
+
+CHECK_HARD
+SVAL 1 1
+BEQ 703 1 0xC
+
+CHECK_TUTORIAL
+SVAL 1 1
+BEQ 703 1 0xC
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW IntroExplanationForcedEndNormal
+TEXTEND
+GOTO 703
+
+LABEL 703
 
 NoFade
 ENDA
@@ -394,6 +430,39 @@ BNE 20 1 0xC
   SVAL 5 2
 LABEL 20
 ENDA
+
+
+EndIfHard:
+CHECK_HARD
+SVAL 1 1
+BNE 1 1 0xC
+CALL EndingScene
+LABEL 1
+NoFade
+ENDA
+
+
+EndIfNormal:
+CHECK_TUTORIAL
+SVAL 1 1
+BEQ 1 1 0xC
+CHECK_HARD
+SVAL 1 1
+BEQ 1 1 0xC
+CALL EndingScene
+LABEL 1
+NoFade
+ENDA
+
+
+
+
+
+
+
+
+
+
 
 
 

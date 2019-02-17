@@ -49,10 +49,23 @@ Other units may escape[NL]
 the map before Marth,[A][NL]
 but only Marth can end the map.[A][X]
 
-##IntroExplanationForcedEnd
+##IntroExplanationForcedEndCasual
 If [ToggleRed]Marth falls in battle[ToggleRed][NL]
 or [ToggleRed]30 turns pass[ToggleRed],[A][NL]
 The map will end without you escaping.[A][X]
+
+
+##IntroExplanationForcedEndNormal
+If [ToggleRed]Marth falls in battle[ToggleRed][NL]
+or [ToggleRed]25 turns pass[ToggleRed],[A][NL]
+The map will end without you escaping.[A][X]
+
+
+##IntroExplanationForcedEndHard
+If [ToggleRed]Marth falls in battle[ToggleRed][NL]
+or [ToggleRed]20 turns pass[ToggleRed],[A][NL]
+The map will end without you escaping.[A][X]
+
 
 ##IntroLoreBackground
 Khadein, city of magic.

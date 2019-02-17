@@ -3,3 +3,39 @@
 
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
+
+// CaedaPalette
+	setPalette(0x2,CaedaPalette)
+	setCBSP(0x2,Caeda, 0x1, FalcoKnight)
+
+// DraugPalette
+	setPalette(0x3,DraugPalette)
+	setCBSP(0x3,Draug, 0x3, General)
+
+// NornePalette
+	setPalette(0x4,NornePalette)
+	setCBSP(0x4,Norne, 0x3, Sniper_F)
+
+// WrysPalette
+	setPalette(0x5,WrysPalette)
+	setCBSP(0x5,Wrys, 0x3, Bishop)
+
+// MerricPalette
+	setPalette(0x6,MerricPalette)
+	setCBSP(0x6,Merric, 0x3, Sage)
+
+// DarrosPalette
+	setPalette(0x7,DarrosPalette)
+	setCBSP(0x7,Darros, 0x3, Berserker)
+
+// LindePalette
+	setPalette(0x8,LindePalette)
+	setCBSP(0x8,Linde, 0x3, Sage_F)
+
+// RickardPalette
+	setPalette(0x9,RickardPalette)
+	setCBSP(0x9,Rickard, 0x3, Rogue)
+
+// GharnefPalette
+	setPalette(0xA,GharnefPalette)
+	setCBSP(0xA,Gharnef, 0x3, Druid)

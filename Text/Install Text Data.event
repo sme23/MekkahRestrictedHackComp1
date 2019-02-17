@@ -1370,56 +1370,64 @@ __TEXTPROCESSA31:
 setText($A31, __TEXTPROCESSA31)
 
 __TEXTPROCESSA32:
-#incbin ".TextEntries\text_buildfileIntroExplanationForcedEnd.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroExplanationForcedEndCasual.fetxt.dmp"
 setText($A32, __TEXTPROCESSA32)
 
 __TEXTPROCESSA33:
-#incbin ".TextEntries\text_buildfileIntroLoreBackground.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroExplanationForcedEndNormal.fetxt.dmp"
 setText($A33, __TEXTPROCESSA33)
 
 __TEXTPROCESSA34:
-#incbin ".TextEntries\text_buildfileIntroCantWinHouse.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroExplanationForcedEndHard.fetxt.dmp"
 setText($A34, __TEXTPROCESSA34)
 
 __TEXTPROCESSA35:
-#incbin ".TextEntries\text_buildfileIntroMapStart.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroLoreBackground.fetxt.dmp"
 setText($A35, __TEXTPROCESSA35)
 
 __TEXTPROCESSA36:
-#incbin ".TextEntries\text_buildfileGharnefBattleQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroCantWinHouse.fetxt.dmp"
 setText($A36, __TEXTPROCESSA36)
 
 __TEXTPROCESSA37:
-#incbin ".TextEntries\text_buildfileGharnefBattleQuoteLinde.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIntroMapStart.fetxt.dmp"
 setText($A37, __TEXTPROCESSA37)
 
 __TEXTPROCESSA38:
-#incbin ".TextEntries\text_buildfileEndingGharnefLives.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGharnefBattleQuote.fetxt.dmp"
 setText($A38, __TEXTPROCESSA38)
 
 __TEXTPROCESSA39:
-#incbin ".TextEntries\text_buildfileEndingGharnefDies.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGharnefBattleQuoteLinde.fetxt.dmp"
 setText($A39, __TEXTPROCESSA39)
 
 __TEXTPROCESSA3A:
-#incbin ".TextEntries\text_buildfileMoneymanRankingBegin.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEndingGharnefLives.fetxt.dmp"
 setText($A3A, __TEXTPROCESSA3A)
 
 __TEXTPROCESSA3B:
-#incbin ".TextEntries\text_buildfileMoneymanRankingPoor.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEndingGharnefDies.fetxt.dmp"
 setText($A3B, __TEXTPROCESSA3B)
 
 __TEXTPROCESSA3C:
-#incbin ".TextEntries\text_buildfileMoneymanRankingGood.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMoneymanRankingBegin.fetxt.dmp"
 setText($A3C, __TEXTPROCESSA3C)
 
 __TEXTPROCESSA3D:
-#incbin ".TextEntries\text_buildfileMoneymanRankingBest.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMoneymanRankingPoor.fetxt.dmp"
 setText($A3D, __TEXTPROCESSA3D)
 
 __TEXTPROCESSA3E:
-#incbin ".TextEntries\text_buildfileWinAgainstGharnefText.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMoneymanRankingGood.fetxt.dmp"
 setText($A3E, __TEXTPROCESSA3E)
+
+__TEXTPROCESSA3F:
+#incbin ".TextEntries\text_buildfileMoneymanRankingBest.fetxt.dmp"
+setText($A3F, __TEXTPROCESSA3F)
+
+__TEXTPROCESSA40:
+#incbin ".TextEntries\text_buildfileWinAgainstGharnefText.fetxt.dmp"
+setText($A40, __TEXTPROCESSA40)
 
 }
 

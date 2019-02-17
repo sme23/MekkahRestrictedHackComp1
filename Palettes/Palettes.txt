@@ -1,0 +1,62 @@
+# char{0x2} "CaedaPalette" set{Caeda, 0x1, FalcoKnight} auto{0}
+    5553FF7FD3253F47DF73FF3F28510B5EC810226A8155D977946F2F6FE2346310
+	auto
+	auto
+	auto
+	auto
+
+# char{0x3} "DraugPalette" set{Draug, 0x3, General} auto{0}
+    5553FF7F5F3B7D2A280E4515D3252C2559676E5AAA41A5754469E354C234A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x4} "NornePalette" set{Norne, 0x3, Sniper_F} auto{0}
+    5553FF7FFF6B1F4B2E19BF393A2DF220BA7FD366CA497F6BBF52FA39F520A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x5} "WrysPalette" set{Wrys, 0x3, Bishop} auto{0}
+    5553B621FF6BFF322F19895EE551FF0BCB527D2EB621895EE55106420539A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x6} "MerricPalette" set{Merric, 0x3, Sage} auto{0}
+    134BFF7FFF6B1F4B2E192D1F651A8721767F54678D56867DA5754469C234A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x7} "DarrosPalette" set{Darros, 0x3, Berserker} auto{0}
+    5553FF7FFF6B1D47392EB51D2E19F65A7911140DED08FF07DD7F356B0E52A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x8} "LindePalette" set{Linde, 0x3, Sage_F} auto{0}
+    007EFF7FFF6B1F4B2E195511F00CAB081E4E7B41D5281E4E7B41D5288D20A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0x9} "RickardPalette" set{Rickard, 0x3, Rogue} auto{0}
+    5553FF7FFF6B1E372E19D3252C25E91CA9614749EF3D29251F1FBA169011A514
+	auto
+	auto
+	auto
+	auto
+	
+# char{0xA} "GharnefPalette" set{Gharnef, 0x3, Druid} auto{0}
+    765EFF7FFF6B1F4B2E197F477D2AD3255F221C000F042D3288250621C418A514
+	auto
+	auto
+	auto
+	auto
