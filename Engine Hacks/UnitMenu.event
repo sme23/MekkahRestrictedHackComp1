@@ -97,9 +97,9 @@ UnitMenuTable:
   UM_Summon_DK
   UM_Pick
 
-  #ifdef __DEBUG__
-  MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
-  #endif
+  //#ifdef __DEBUG__
+  //MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
+  //#endif
   
   //Rally
   MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyUsability, RallyEffect)

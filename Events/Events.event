@@ -191,21 +191,27 @@ EndingScene:
 CHECK_EVENTID 176
 SVAL 1 1
 BNE 1 1 0xC
-Text(HouseBG,EndingGharnefDies)
-GOTO 2
+  Text(HouseBG,EndingGharnefDies)
+  GOTO 2
 LABEL 1
-Text(HouseBG,EndingGharnefLives)
+  Text(HouseBG,EndingGharnefLives)
 LABEL 2
 
 Text(HouseBG,MoneymanRankingBegin)
 CALL ScoreCalculation
 
-
-
-
-
-
-
+SVAL 1 0
+BNE 3 1 5
+  Text(HouseBG,MoneymanRankingPoor)
+LABEL 3
+SVAL 1 1
+BNE 4 1 5
+  Text(HouseBG,MoneymanRankingGood)
+LABEL 4
+SVAL 1 2
+BNE 5 1 5
+  Text(HouseBG,MoneymanRankingBest)
+LABEL 5
 
 ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
 STAL 120
@@ -292,22 +298,23 @@ UNIT
 
 
 ScoreCalculation:
-//get current funds total, using fe7 ranking calc
-SVAL 1 6
 ASMC CallFundsEvalASMC|1 //returns rank from 0 to 5 in memory slot 1
-SADD 0x91
+SADD 0x21
+COUNTER_SET 2 (-1)
 
 CHECK_TURNS
 SVAL 8 10
 SSUB 0x8C
-SADD 0x98
+SADD 0x28
+//subtract value in slot 2 from counter
+
 
 CHECK_EVENTID 176
 SVAL 1 1
 BNE 8 1 0xC
   
-  SVAL 8 10
-  SADD 0x98
+  COUNTER_INC 2
+  COUNTER_INC 2
   
 LABEL 8
 
@@ -315,7 +322,53 @@ CHECK_TUTORIAL
 SVAL 1 1
 BEQ 9 1 0xC
 
-  //unit death checks (-5 per death)
+  CHECK_EVENTID 120
+  SVAL 1 1
+  BNE 10 1 0xC
+    COUNTER_DEC 2
+  LABEL 10
+  
+  CHECK_EVENTID 121
+  SVAL 1 1
+  BNE 11 1 0xC
+    COUNTER_DEC 2
+  LABEL 11
+  
+  CHECK_EVENTID 122
+  SVAL 1 1
+  BNE 12 1 0xC
+    COUNTER_DEC 2
+  LABEL 12
+  
+  CHECK_EVENTID 123
+  SVAL 1 1
+  BNE 13 1 0xC
+    COUNTER_DEC 2
+  LABEL 13
+  
+    CHECK_EVENTID 124
+  SVAL 1 1
+  BNE 14 1 0xC
+    COUNTER_DEC 2
+  LABEL 14
+  
+  CHECK_EVENTID 125
+  SVAL 1 1
+  BNE 15 1 0xC
+    COUNTER_DEC 2
+  LABEL 15
+  
+  CHECK_EVENTID 126
+  SVAL 1 1
+  BNE 16 1 0xC
+    COUNTER_DEC 2
+  LABEL 16
+  
+  CHECK_EVENTID 131
+  SVAL 1 1
+  BNE 17 1 0xC
+    COUNTER_DEC 2
+  LABEL 17
 
 LABEL 9
 
@@ -323,15 +376,23 @@ CHECK_HARD
 SVAL 1 1
 BNE 10 1 0xC
 
-  //multiply score by 1.2
+  COUNTER_INC 2
   
 LABEL 10
 
-
-
-//if score is underneath X, return 0
-//if score is above X but below Y, return 1
-//if score is above Y, return 2
+COUNTER_CHECK 2
+SVAL 1 7
+BGT 18 1 0xC
+  SVAL 5 0
+LABEL 18
+SVAL 1 14
+BGT 19 1 0xC
+  SVAL 5 1
+LABEL 19
+SVAL 1 15
+BNE 20 1 0xC
+  SVAL 5 2
+LABEL 20
 NoFade
 ENDA
 

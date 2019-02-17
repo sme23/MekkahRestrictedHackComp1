@@ -13,10 +13,10 @@ PUSH
   #include "_FE8EssentialFixes.event"
   
   // Debug Startup Screen
-  #ifdef __DEBUG__
-    ORG 0x000AD8   // this is somewhere in the startup routine
-      BL(0x01C090) // Call the debug startup menu
-  #endif
+  //#ifdef __DEBUG__
+  //  ORG 0x000AD8   // this is somewhere in the startup routine
+  //    BL(0x01C090) // Call the debug startup menu
+  //#endif
 POP
 
 
@@ -168,6 +168,8 @@ POP
   ALIGN 4
   #include "DebugOMatic/Debug-o-matic.event"
   
+  ALIGN 4
+  #include "CounterFix.event"
   
   ALIGN 4
   #include "UnitMenu.event"
