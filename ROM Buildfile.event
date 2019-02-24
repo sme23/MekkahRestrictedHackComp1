@@ -32,14 +32,7 @@ MESSAGE Used hax space ends at currentOffset
 #include "Events/Events.event"
 #include "Events/World Map Events Installer.event"
 
-PUSH
-ORG 0xD74D0
-String("2019/14/02[THR]")
-ORG 0xD74E0
-String("21:26:27")
-ORG 0xD74EC
-String("MRHC1")
-POP
+
 
 MESSAGE Used free space ends at currentOffset
 MESSAGE Proc_Counter
