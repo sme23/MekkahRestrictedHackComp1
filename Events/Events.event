@@ -46,7 +46,7 @@ UNIT
 
 TurnBasedEvents:
 TurnEventPlayer(0,EndingScene,31)
-TurnEventPlayer(0,RandomTurnEvents,3,30)
+//TurnEventPlayer(0,RandomTurnEvents,3,30)
 TurnEventPlayer(0,EndIfNormal,26)
 TurnEventPlayer(0,EndIfHard,21)
 END_MAIN
@@ -159,10 +159,10 @@ TEXTEND
 
 LABEL 202
 
-CenterTutorialTextBox
-TUTORIALTEXTBOXSTART
-TEXTSHOW IntroExplanationTurnEvents
-TEXTEND
+//CenterTutorialTextBox
+//TUTORIALTEXTBOXSTART
+//TEXTSHOW IntroExplanationTurnEvents
+//TEXTEND
 
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -417,15 +417,15 @@ BNE 610 1 0xC
 LABEL 610
 
 COUNTER_CHECK 2
-SVAL 1 7
+SVAL 1 3
 BGT 18 1 0xC
   SVAL 5 0
 LABEL 18
-SVAL 1 14
+SVAL 1 5
 BGT 19 1 0xC
   SVAL 5 1
 LABEL 19
-SVAL 1 15
+SVAL 1 7
 BNE 20 1 0xC
   SVAL 5 2
 LABEL 20
